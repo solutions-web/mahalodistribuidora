@@ -1,0 +1,13 @@
+* {
+  font-family: "Liberation Sans", sans-serif;
+
+}
+
+
+.list-group-item {
+  color: #444 !important;
+}
+
+.card-title a {
+  color: #71ca8a;
+}
