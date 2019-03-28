@@ -13,6 +13,7 @@
 body {
   background-color: #fff;
   color: #333;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -228,6 +229,7 @@ span {
   /* font-family: "Concert One", cursive; */
   color: #00c853;
   font-weight: 200;
+  margin-top:10rem;
 }
 
 #hero span {
@@ -248,7 +250,7 @@ span {
 
 #hero h2 {
   color: #777;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   font-size: 20px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -263,8 +265,8 @@ span {
 }
 
 #hero img {
-  /* max-width: 95%;
-  margin-bottom: 30px; */
+  max-width: 95%;
+  margin-bottom: 30px;
 }
 
 #hero .btn-get-started {
@@ -277,7 +279,7 @@ span {
   padding: 11px 36px;
   border-radius: 50px;
   transition: 0.5s;
-  margin-bottom: 30px;
+  margin-bottom: 80px !important;
   border: 2px solid #00c853;
   background: #fff;
   color: #00c853;
