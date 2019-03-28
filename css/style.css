@@ -236,6 +236,10 @@ span {
 }
 
 @media (max-width: 768px) {
+  #hero {
+    margin-top: 8rem;
+  }
+
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
