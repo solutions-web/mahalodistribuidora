@@ -1,7 +1,26 @@
 
 
+.content h1 {
+    color: #252525;
+    font-family: "roboto";
+    font-size: 39px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
 .list-group-item {
-  color: #444 !important;
+  font-family: "Roboto", sans-serif;
+  color: #626262;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 30px;
+text-transform: capitalize;
+}
+
+.list-group-item:hover {
+  color: #00c853;
 }
 
 .card-title a {
