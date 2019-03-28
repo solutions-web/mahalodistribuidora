@@ -156,11 +156,12 @@ span {
 
 #header #logo h1 {
   color: #505050;
-  font-family: "Philosopher", sans-serif;
-  font-size: 26px;
+  /* font-family: "Philosopher", sans-serif; */
+  font-family: "Concert One", cursive;
+  font-size: 36px;
   font-weight: 500;
   letter-spacing: 1px;
-  margin: 0;
+  margin-top: -0.5rem;
 }
 
 #header #logo h1 a {
@@ -220,8 +221,16 @@ span {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  font-family: "Philosopher", sans-serif;
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Philosopher", sans-serif; */
+  /* font-family: "Concert One", cursive; */
   color: #71c55d;
+  font-weight: 200;
+}
+
+#hero span {
+  font-family: "Concert One", cursive;
+  font-weight: 100;
 }
 
 @media (max-width: 768px) {
@@ -1315,7 +1324,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
   color: #fff;
   display: inline-block;
   float: none;
-  font-family: "Philosopher", sans-serif;
+  /* font-family: "Philosopher", sans-serif; */
+  font-family: "Concert One", cursive;
   font-size: 24px;
   font-weight: 500;
   height: 100%;
