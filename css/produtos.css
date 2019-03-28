@@ -1,5 +1,10 @@
 
 
+#categorias .actived {
+	background-color:#00c853 !important;
+  color: #fff;
+}
+
 .content h1 {
     color: #252525;
     font-family: "roboto";

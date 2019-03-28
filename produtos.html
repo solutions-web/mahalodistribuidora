@@ -91,25 +91,25 @@
 
     <div class="row">
 
-      <div class="col-lg-3">
+      <div class="col-lg-3 " id="categorias">
 
         <h1 class="my-4">CATEGORIAS</h1>
         <div class="list-unstyled">
-          <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i> SEDAS</a>
-          <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i> NARGUILES</a>
-          <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i> CACHIMBOS</a>
-          <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i> BARALHOS</a>
-          <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i> HEAD SHOP</a>
-          <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i> FLUÍDO E GÁS</a>
-          <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i> PALHAS E PAPÉIS</a>
-          <a href="#" class="list-group-item"><i class="fa fa-angle-right"></i> ACESSÓRIOS</a>
+          <a href="#" class="list-group-item" data-filter=".sedas"><i class="fa fa-angle-right"></i> SEDAS</a>
+          <a href="#" class="list-group-item" data-filter=".narguiles"><i class="fa fa-angle-right"></i> NARGUILES</a>
+          <a href="#" class="list-group-item" data-filter=".cachimbos"><i class="fa fa-angle-right"></i> CACHIMBOS</a>
+          <a href="#" class="list-group-item" data-filter=".baralhos"><i class="fa fa-angle-right"></i> BARALHOS</a>
+          <a href="#" class="list-group-item" data-filter=".headshop"><i class="fa fa-angle-right"></i> HEAD SHOP</a>
+          <a href="#" class="list-group-item" data-filter=".fluidogas"><i class="fa fa-angle-right"></i> FLUÍDO E GÁS</a>
+          <a href="#" class="list-group-item" data-filter=".palhaspapeis"><i class="fa fa-angle-right"></i> PALHAS E PAPÉIS</a>
+          <a href="#" class="list-group-item" data-filter=".acessorios"><i class="fa fa-angle-right"></i> ACESSÓRIOS</a>
         </div>
 
       </div>
       <!-- /.col-lg-3 -->
 
       <div class="col-lg-9">
-
+<!--
         <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel" style="display:none">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -135,13 +135,16 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-        </div>
+        </div> -->
 
-        <div class="row">
 
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="produtos/1.jpg"  alt=""></a>
+
+        <div class="row" id="produtos">
+
+
+          <div class="col-lg-4 col-md-6 mb-4 sedas">
+            <div class="card h-100 ">
+              <a href="#"><img class="card-img-top" src="produtos/8.jpg"  alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
                   <a href="detalhes.html">Item One</a>
@@ -155,8 +158,8 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
+          <div class="col-lg-4 col-md-6 mb-4 sedas">
+            <div class="card h-100 ">
               <a href="#"><img class="card-img-top" src="produtos/7.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
@@ -171,8 +174,8 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
+          <div class="col-lg-4 col-md-6 mb-4 sedas">
+            <div class="card h-100 ">
               <a href="#"><img class="card-img-top" src="produtos/8.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
@@ -187,8 +190,8 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
+          <div class="col-lg-4 col-md-6 mb-4 fluidogas">
+            <div class="card h-100 ">
               <a href="#"><img class="card-img-top" src="produtos/4.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
@@ -203,8 +206,8 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
+          <div class="col-lg-4 col-md-6 mb-4 fluidogas">
+            <div class="card h-100 ">
               <a href="#"><img class="card-img-top" src="produtos/5.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
@@ -219,8 +222,8 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
+          <div class="col-lg-4 col-md-6 mb-4 sedas palhaspapeis">
+            <div class="card h-100 ">
               <a href="#"><img class="card-img-top" src="produtos/6.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
@@ -235,9 +238,9 @@
             </div>
           </div>
 
+
         </div>
         <!-- /.row -->
-
       </div>
       <!-- /.col-lg-9 -->
 
@@ -357,11 +360,13 @@
     <script src="lib/modal-video/js/modal-video.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/isotope/isotope.js"></script>
     <!-- Contact Form JavaScript File -->
     <script src="contactform/contactform.js"></script>
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
+    <script src="js/produtos.js"></script>
 
 </body>
 
