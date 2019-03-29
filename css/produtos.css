@@ -1,4 +1,12 @@
 
+.card-body {
+	height: 175px !important;
+	overflow: scroll;
+}
+
+.card-text {
+}
+
 
 #categorias .actived {
 	background-color:#00c853 !important;
